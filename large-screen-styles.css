@@ -1,0 +1,8 @@
+@media screen and (min-width: 768px) {
+  .post1-1 {
+    margin: 10px 60px 0px 60px;
+}
+.stories-con {
+  overflow-x:auto;
+}
+}
