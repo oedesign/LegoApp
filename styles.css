@@ -124,8 +124,9 @@ main {
 .c-s {
     position: absolute;
     bottom: 5px;
-    left: 10px;
+    left: 22px;
     cursor: pointer;
+    font-size: 12px;
     }
     /* main-field */
 .main-field {
