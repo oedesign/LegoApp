@@ -3,95 +3,232 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lego App by OE Design</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="large-screen-styles.css">
+    <title>Lego App | OE Design</title>
+    <link rel="stylesheet" href="desktop-view-styles.css">
+    <link rel="stylesheet" href="tablet-view-style.css">
+    <link rel="stylesheet" href="mobile-view-styles.css">
 </head>
 <body>
     <header>
-        <div class="header-opt">
-            <h1>Lego<sub>App</sub></h1>
+        <div class="desktop-view">
+            <div class="logo-search-desk-con">
+                <img class="lego-logo" src="images/lego.png" alt="" width="40">
+                <img class="search" src="images/search.png" alt="" width="20">
+                <input class="search-int" type="search" id="search">
+            </div>
+            <nav>
+                <a href=""><img src="images/home1.png" alt="" width="40"></a>
+                <a href=""><img src="images/friends.png" alt="" width="60"></a>
+                <a href=""><img src="images/dashboard.png" alt="" width="25"></a>
+                <a href=""><img src="images/video.png" alt="" width="40"></a>
+                <a href=""><img src="images/market.png" alt="" width="40"></a>
+                <!-- <a href=""><img src="images/oedesign.png" alt="" width="40"></a> -->
+            </nav>
             <div class="opt">
-                <img class="search-icon" src="images/search.png" alt="" width="35">
-                <img class="menu-icon" src="images/menu-bar.png" alt="" width="35">
+                <img style="cursor: pointer;" src="images/menu.png" alt="" width="25">
+                <img style="cursor: pointer;" src="images/messenger.png" alt="" width="27">
+                <img style="cursor: pointer;" src="images/bell.png" alt="" width="27">
+                 <div class="pf">
+                    <img class="arrw" src="images/arrowdown.png" alt="" width="20">
+                 </div>
             </div>
         </div>
-        <nav>
-            <div class="header-nav">
-                <a href=""><img src="images/home.png" alt="" width="40"></a>
-                <a href=""><img src="images/friends.png" alt=""></a>
-                <a href=""><img src="images/messenger.png" alt="" width="40"></a>
-                <a href=""><img class="oe-design" title="oe-design" src="images/oedesign.png" alt="" width="40"></a>
-                <a href=""><img src="images/notification.png" alt="" width="40"></a>
-                <a href=""><img src="images/market.png" alt="" width="40"></a>
+        <div class="mobile-view">
+            <h1>Lego</h1>
+            <div class="opt-mobile">
+                <img src="images/search.png" alt="" width="40">
+                <img src="images/menu-bar.png" alt="" width="40">
             </div>
-        </nav>
+        </div>
+        <div class="nav-mobile"> 
+            <img src="images/home1.png" alt="" width="40">
+            <img src="images/group.png" alt="" width="40">
+            <img src="images/messenger.png" alt="" width="38">
+            <img src="images/video.png" alt="" width="40">
+            <img src="images/bell.png" alt="" width="35">
+            <img src="images/market.png" alt="" width="40">
         </div>
     </header>
     <main>
-        <div class="main-con">
-            <div class="post-con">
-                <div class="profile"></div>
-                <div class="post">
-                <input class="post-int" type="post" name="post" placeholder="What's on your mind?">
+        <div class="desktop-view-main">
+            <div class="left-main">
+                <div class="left-con">
+                <div class="profile2">
+                    <div class="pf2"></div>
+                    <p>Oluwaseyi Elujoba</p>
                 </div>
-                <figure>
-                <img class="group" src="images/group.png" alt="" width="40">
-                <figcaption style="position: relative;left: 57px;bottom: 3px;">Share</figcaption>
-                </figure>
+                <div class="friend">
+                    <img style="cursor: pointer;" src="images/friends.png" alt="" width="40">
+                    <p style="cursor: pointer;">Friends</p>
+                </div>
+                <div class="group">
+                    <img style="cursor: pointer;" src="images/group.png" alt="" width="40">
+                    <p style="cursor: pointer;">Group</p>
+                </div>
+                <div class="message">
+                    <img style="cursor: pointer;" src="images/messenger.png" alt="" width="40">
+                    <p style="cursor: pointer;">Message</p>
+                </div>
+                <div class="video">
+                    <img style="cursor: pointer;" src="images/video.png" alt="" width="40">
+                    <p style="cursor: pointer;">Video</p>
+                </div>
+                <div class="market">
+                    <img style="cursor: pointer;" src="images/market.png" alt="" width="40">
+                    <p style="cursor: pointer;">Market</p>
+                </div>
+                <div class="dashboard">
+                    <img style="cursor: pointer;" src="images/dashboard.png" alt="" width="35">
+                    <p style="cursor: pointer;">Dashboard</p>
+                </div>
+                <div class="alert">
+                    <img style="cursor: pointer;" src="images/notification.png" alt="" width="40">
+                    <p>Notification</p>
+                </div>
+                <div class="search2">
+                    <img style="cursor: pointer;" src="images/search.png" alt="" width="40">
+                    <p style="cursor: pointer;">Search</p>
                 </div>
             </div>
-            <div class="stories-con">
-                <div class="story">
-                    <div class="circle-plus">+</div>
-                    <p class="c-s">Create Story</p>
-                </div>
-                <div class="story1"></div>
-                <div class="story2"></div>
-                <div class="story3"></div>
-                <div class="story4"></div>
-                <div class="story5"></div>
-                <div class="story6"></div>
-                <div class="story7"></div>
-                <div class="story8"></div>
-                <div class="story9"></div>
             </div>
-            <div class="main-field">
-                <div class="post1">
-                    <div class="profile-post1">
-                        <div class="profile1"></div>
-                        <div class="profile-name1">OE Design<span style="color: grey;"> <br>4hr</span></div>
+            <!-- center -->
+            <div class="center-main">
+                <div class="con-post">
+                    <div class="pf2"></div>
+                    <input class="post" type="post" id="post">
+                </div>
+                <hr style="position: relative; top: -60px; width: 95%;margin: 0 auto;">
+                <div class="p-opt">
+                    <img src="images/oedesign.png" alt="" width="40">
+                    <img src="images/oedesign.png" alt="" width="40">
+                    <img src="images/oedesign.png" alt="" width="40">
+                </div>
+                <div class="stories-con">
+                    <div class="item">
+                        <div class="circle-plus">+</div>
+                        <p class="c-s">Create Story</p>
                     </div>
-                    <div class="pro1-opt">
-                        <span style="font-weight: bolder; font-size: 32px;">...</span>
-                        <span style="font-size: 22px; position: relative; top: 2px; margin-right: 40px;">x</span>
+                    <div class="item2"></div>
+                    <div class="item3"></div>
+                    <div class="item4"></div>
+                    <div class="item5"></div>
+                    <div class="item6"></div>
+                    <div class="item7"></div>
+                    <div class="item8"></div>
+               </div>
+               <div class="post1">
+                 <div class="pf-nm-1">
+                    <div class="profile2">
+                    <div class="pf2"></div>
+                    <p>Oluwaseyi Elujoba <br><span>4hr</span></p>
+                </div>
+                <div class="pf-opt1">
+                    <span style="position: relative; top: -15px; font-weight: bold; font-size: 25px; cursor: pointer;">...</span>
+                    <span style="position: relative; top: -12px; font-weight: bold; cursor: pointer;">X</span>
+                </div>
+                </div>
+                <div class="content1">
+                    <p style="max-width: 500px; margin: 0 auto; position: relative; top: -20px;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet repellendus, dolor qui quae beatae excepturi fugit nostrum ab quis consequatur reprehenderit libero nam autem, mollitia fuga, iste incidunt itaque totam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam libero dolore quis beatae repudiandae rerum illum fuga, sit voluptates illo velit ratione aliquam impedit nobis nemo! Laborum dignissimos alias deserunt!</p>
+                </div>
+                <div class="picture1">
+                    <img style="display: block; margin: 0 auto;" src="images/amaka.jpg" alt="" width="500">
+                    <div class="engage">
+                        <img style="cursor: pointer;" src="images/likes.png" alt="" width="40">
+                        <img style="cursor: pointer;" src="images/comments.png" alt="" width="40">
+                        <img style="cursor: pointer;" src="images/share.png" alt="" width="40">
                     </div>
                 </div>
-                <div class="post1-1">
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis reiciendis rem assumenda, nulla natus quasi! Excepturi veritatis sunt iure ad tenetur commodi deserunt, labore consectetur possimus explicabo ratione exercitationem adipisci?Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui distinctio iste enim hic? Ipsam molestias possimus explicabo, maiores, id ut est, enim necessitatibus libero eos blanditiis porro. Blanditiis, molestias ab. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil, vitae natus officiis ducimus ipsum quasi maxime cupiditate recusandae impedit, aperiam delectus velit pariatur, in aliquid molestias quod voluptatibus. Possimus, a!</p>
+            </div>
+            <!-- the end -->
+             <!-- second post -->
+                            <div class="post1">
+                 <div class="pf-nm-1">
+                    <div class="profile2">
+                    <div class="pf3"></div>
+                    <p>Jessica John <br><span>4hr</span></p>
                 </div>
-                <div class="post1-1-1">
-                    <div class="amaka"></div>
+                <div class="pf-opt1">
+                    <span style="position: relative; top: -15px; font-weight: bold; font-size: 25px; cursor: pointer;">...</span>
+                    <span style="position: relative; top: -12px; font-weight: bold; cursor: pointer;">X</span>
                 </div>
-                <div class="p-react1">
-                    <div class="l-c-s-1">
-                        <p>reactions</p>
-                        <p>Comments</p>
-                        <p>Shares</p>
+                </div>
+                <div class="content1">
+                    <p style="max-width: 500px; margin: 0 auto; position: relative; top: -20px;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet repellendus, dolor qui quae beatae excepturi fugit nostrum ab quis consequatur reprehenderit libero nam autem, mollitia fuga, iste incidunt itaque totam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam libero dolore quis beatae repudiandae rerum illum fuga, sit voluptates illo velit ratione aliquam impedit nobis nemo! Laborum dignissimos alias deserunt!</p>
+                </div>
+                <div class="picture1">
+                    <img style="display: block; margin: 0 auto;" src="images/profile.jpg" alt="" width="500">
+                    <div class="engage">
+                        <img style="cursor: pointer;" src="images/likes.png" alt="" width="40">
+                        <img style="cursor: pointer;" src="images/comments.png" alt="" width="40">
+                        <img style="cursor: pointer;" src="images/share.png" alt="" width="40">
                     </div>
-                    <div class="l-c-s-1-con">
-                        <div class="r-1"></div>
-                        <div class="r-2"></div>
-                        <div class="r-3"></div>
+                </div>
+            </div>
+            <!-- the end second post -->
+             <!-- third post -->
+               <div class="post1">
+                 <div class="pf-nm-1">
+                    <div class="profile2">
+                    <div class="pf4"></div>
+                    <p>OE Design <br><span>4hr</span></p>
+                </div>
+                <div class="pf-opt1">
+                    <span style="position: relative; top: -15px; font-weight: bold; font-size: 25px; cursor: pointer;">...</span>
+                    <span style="position: relative; top: -12px; font-weight: bold; cursor: pointer;">X</span>
+                </div>
+                </div>
+                <div class="content1">
+                    <p style="max-width: 500px; margin: 0 auto; position: relative; top: -20px;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet repellendus, dolor qui quae beatae excepturi fugit nostrum ab quis consequatur reprehenderit libero nam autem, mollitia fuga, iste incidunt itaque totam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam libero dolore quis beatae repudiandae rerum illum fuga, sit voluptates illo velit ratione aliquam impedit nobis nemo! Laborum dignissimos alias deserunt!</p>
+                </div>
+                <div class="picture1">
+                    <img style="display: block; margin: 0 auto;" src="images/oedesign_.jpg" alt="" width="500">
+                    <div class="engage">
+                        <img style="cursor: pointer;" src="images/likes.png" alt="" width="40">
+                        <img style="cursor: pointer;" src="images/comments.png" alt="" width="40">
+                        <img style="cursor: pointer;" src="images/share.png" alt="" width="40">
                     </div>
+                </div>
+            </div>
+              <!-- the end -->
+               <!-- fourth post -->
+                 <div class="post1">
+                 <div class="pf-nm-1">
+                    <div class="profile2">
+                    <div class="pf5"></div>
+                    <p>Ebniri <br><span>4hr</span></p>
+                </div>
+                <div class="pf-opt1">
+                    <span style="position: relative; top: -15px; font-weight: bold; font-size: 25px; cursor: pointer;">...</span>
+                    <span style="position: relative; top: -12px; font-weight: bold; cursor: pointer;">X</span>
+                </div>
+                </div>
+                <div class="content1">
+                    <p style="max-width: 500px; margin: 0 auto; position: relative; top: -20px;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet repellendus, dolor qui quae beatae excepturi fugit nostrum ab quis consequatur reprehenderit libero nam autem, mollitia fuga, iste incidunt itaque totam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam libero dolore quis beatae repudiandae rerum illum fuga, sit voluptates illo velit ratione aliquam impedit nobis nemo! Laborum dignissimos alias deserunt!</p>
+                </div>
+                <div class="picture1">
+                    <img style="display: block; margin: 0 auto;" src="images/ebn.jpg" alt="" width="500">
+                    <div class="engage">
+                        <img style="cursor: pointer;" src="images/likes.png" alt="" width="40">
+                        <img style="cursor: pointer;" src="images/comments.png" alt="" width="40">
+                        <img style="cursor: pointer;" src="images/share.png" alt="" width="40">
+                    </div>
+                </div>
+            </div>
+                <!-- the end -->
+        </div>
+            <!-- right -->
+            <div class="right-main">
+                <div class="adv1">
+                    <h4>ADVERTISE</h4>
+                </div>
+                <div class="adv2">
+                    <h4>ADVERTISE</h4>
                 </div>
             </div>
         </div>
     </main>
-    <footer>
-        <div class="footer-con">
-            <p>&copy;2025, OE Design ...</p>
-        </div>
-    </footer>
+    <!-- <footer>
+        <p></p>
+    </footer> -->
 </body>
 </html>

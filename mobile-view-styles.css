@@ -1,0 +1,23 @@
+@media screen and (max-width: 768px) {
+  body {
+    background-color: bisque;
+  }
+  .desktop-view {
+    display: none;
+  }
+  .mobile-view {
+    display: flex;
+    justify-content: space-between;
+  }
+  .nav-mobile {
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+    border-bottom: 2px solid ;
+    padding: 10px;
+  }
+  /* main */
+  .desktop-view-main {
+    display: none;
+  }
+}
